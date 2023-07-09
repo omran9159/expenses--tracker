@@ -1,0 +1,52 @@
+/* Set styles for container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Set styles for heading */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Set styles for form */
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Set styles for form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Set styles for form input fields */
+input[type="text"],
+input[type="number"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Set styles for form submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Set styles for form error message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
