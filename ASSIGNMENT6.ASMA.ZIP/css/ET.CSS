@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+padding:0;
+margin: 0;
+font-family:'Poppins',sans-serif;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.logo{
+
+    text-decoration: none;
+    color: rgb(31, 221, 221);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4em; 
+    margin-top: 3%;
+
+}
+.navigation{
+color: #e20d0d;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+color: #afa1a1;
+margin-left: -90%;
+
+
+}
+.navigation a:hover{
+    color: #52062f;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+padding-left: 30px;
+
+padding-bottom: 10px;
+ }
+section{
+padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../photo/GDandP_homepage_easy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.main h2{
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 500;
+margin-top: 6%;
+}
+.main h2 span{
+display: inline-block;
+margin-top: 10px;    color: #fffdfd;
+font-size: 3em;
+font-weight: 600;
+
+}
+.main h3{
+    color: #fffcfc;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+h4{
+    color: #e0dada;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 22%;
+}
+p{color: #fffdfd;
+margin-top: 15%;}
+h5{
+color: #f8f8fa;
+margin-top: -19%;
+margin-left: 35%;
+
+
+}
+
+.main-btn1
+{
+color: rgb(5, 5, 116);
+background: #96a2c228;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2,1875em;
+letter-spacing:1px;
+border-radius: 30px;
+border: none;
+margin-right: 30px;
+padding-right: 30px;
+margin-top: -15%;
+
+}
+.main-btn2
+{
+color: rgb(5, 5, 116);
+background: #96a2c228;
+width: 13%;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2,1875em;
+letter-spacing:1px;
+border-radius: 30px;
+margin-right: 30px;
+
+}
+.main-btn1:hover{
+
+background-color: #1c2c61;
+transform: scale(1.1);
+
+}
+.main-btn2:hover{
+
+    background-color: #1c2c61;
+    transform: scale(1.1);
+    }
+.social-icon a{
+color: #050505;
+font-size: 1.7em;
+padding-right: 30px;
+margin-top: 11%;
+
+    }
